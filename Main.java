@@ -20,8 +20,14 @@ public class Main
 	// This method should implement Algorithm 1 and print all neccessary data
 	public static void algorithm1(String input)
 	{
-		// TODO: Put solution to Algorithm 1 here
-		System.out.println("Implement me!");
+		String fix = input.toLowerCase();
+		String empty = ""; // our valid string.
+		for(int i = 0; i < fix.length(); i++) {
+			String letter = fix.substring(i, i + 1);
+			// check index.
+			System.out.println(letter);
+			
+		}
 	}
 
 	// This method should implement Algorithm 2 and print all neccessary data
