@@ -1,5 +1,30 @@
 import java.util.Scanner;
+/* 
 
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println(isSelfDivisor(555));
+    }
+    public static boolean isSelfDivisor(int number) {
+        String numString = number + "";
+        System.out.println(numString);
+        int copy = number;
+        int divisCount = 0;
+        while(copy > 0) {
+            int digit = copy % 10;
+            if(digit % number == 0) {
+                divisCount++;
+            }
+            copy /= 10;
+        }
+        if(divisCount == numString.length()) {
+            return true;
+        }
+        return false;
+    }
+}
+*/
 public class Main
 { // use this to save this file for now
 	public static void main(String[] args)
