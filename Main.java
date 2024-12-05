@@ -22,9 +22,17 @@ public class Main
 		int coints2 = 10; // player 2
 		int currentRound = 1;
 		int maxRounds = 5;
-		boolean gameEnd = (currentRound >= maxRounds)// || (true);
+		boolean gameEnd = (currentRound >= maxRounds) || (coins1 < 3 || coins2 < 3);
 		while(!gameEnd) {
 			
+		}
+		// loop break
+		if(coins1 == coins2) { // same at the end of the game.
+			System.out.println("Tie Game");
+		} else if(coins1 > coins2) {
+			System.out.println("player 1 wins");
+		} else {
+			System.out.println("player 1 wins");
 		}
 	}
 }
